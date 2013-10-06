@@ -8,5 +8,3 @@ $(function() {
         $("#roolText").removeClass("hide").addClass("show");
     });
 });
-
-
