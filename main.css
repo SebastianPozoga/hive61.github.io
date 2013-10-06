@@ -1,0 +1,63 @@
+
+
+*{
+    padding:0px;
+    margin:0px;
+}
+
+body{
+    background-color: #ffe44d;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+#head{
+    background-image: url("img/top-bg.jpg");
+    background-repeat: repeat-x;
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+#upText, #roolText, #social{
+    margin: auto;
+    display: block;
+    max-width: 850px;
+}
+
+#upText{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#roolText .less, #roolText .more{
+    font-size: 1.4em;
+    font-weight: bold;
+    margin:10px 0px;
+    cursor: pointer;
+    display: none;
+}
+
+#roolText.show .less{
+    display: block;
+}
+
+#roolText.hide .more{
+    display: block;
+}
+
+#roolText .content{
+    transition: 0.5s linear;
+    overflow: hidden;
+}
+
+#roolText.show .content{
+    max-height: 450px;
+}
+
+#roolText.hide .content{
+    max-height: 0px;
+}
+
+#roolContent div{
+    padding:5px 0px;
+}
